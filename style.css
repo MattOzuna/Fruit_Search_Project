@@ -35,15 +35,16 @@ input::placeholder {
   height: 100%;
   color: hsl(0, 0%, 100%);
 }
+
 .search-container input,
 .search-container .suggestions {
   margin-left: auto;
   margin-right: auto;
-  width: 300px;
+  width: 400px;
 }
 
 .search-container input {
-  margin-top: 300px;
+  margin-top: 200px;
 }
 
 .search-container .suggestions {
@@ -73,4 +74,13 @@ ul li:hover {
 
 .highlight {
   background-color: hsla(0, 0%, 100%, 50%) ;
+}
+
+@media all and (max-width: 600px) {
+  .search-container input,
+  .search-container .suggestions  {
+    width: 75%;
+    font-size: 1.5rem;
+  }
+
 }
