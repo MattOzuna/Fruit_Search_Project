@@ -46,10 +46,6 @@ function useSuggestion(e) {
 }
 
 function highlightSuggestion(e){
-	let x = e.clientX
-	let y = e.clientY
-	// cursor.sytle.transform = `translate3d(${x}px, ${y}px, 0)`;
-	cursor.sytle.display = `translate3d(${x}px, ${y}px, 0)`;
 }
 
 input.addEventListener('keyup', searchHandler);
