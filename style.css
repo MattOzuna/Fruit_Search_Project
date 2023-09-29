@@ -23,11 +23,6 @@ input {
   border-top: 1px solid;
 }
 
-/* @media (min-width: 800px){
-  input {
-  }
-} */
-
 input::placeholder {
   color: hsl(0, 0%, 100%);
   opacity: 85%;
