@@ -1,0 +1,31 @@
+What HTML element would you use for the search bar? 
+-I think an Text Input
+
+How about the drop down, the search button, and the filler text which will appear on the page?
+-the dropdown could be a div that has text added to it as the text is added in the search bar.
+-the search button can be another input with the button type.
+-the filler text could be placeholder? or just prepopulate the search bar text input
+
+What CSS would you use to create the color gradient on the page?
+-body background color gradient
+
+What type of JavaScript event listeners would you need to add to refresh the drop-down as a 
+user types?
+-The keyup event
+
+How would you populate the search bar with an option from the drop down list? 
+-You'd have to have an event listener that would take the event target's inner text and move 
+that to the search bar.
+
+What event would trigger this action?
+-a click event
+
+How would you structure your functions?
+-I'll need a function which generates options in the dropdown menu as the user types.
+This would be done by listening for a keyup event and then checking the value currently 
+in the searchbar against the fruits provided in the starter code.
+
+-I'll need a function which will populate the searchbar with the clicked value from the dropdown.
+
+
+
