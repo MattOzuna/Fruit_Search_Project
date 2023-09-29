@@ -1,46 +1,82 @@
 * {
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
 }
 
 :focus {
- /* TODO */
+ outline: none;
 }
 
 body {
-  /* TODO */
+  height: 100vh;
+  background: linear-gradient(45deg, #00e4fd, #100278);
+  background-repeat: no-repeat;
 }
 
 input {
- /* TODO */
+  background-color: #11ffee00;
+  /* I just wanted a transparent input background. */
+  border-radius: 2px;
+  border-color: hsl(0, 0%, 100%, 10);
+  color: hsl(0, 0%, 100%);
+  height: 50px;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
 }
 
+/* @media (min-width: 800px){
+  input {
+  }
+} */
+
+input::placeholder {
+  color: hsl(0, 0%, 100%);
+  opacity: 85%;
+}
+
+/* Made a flex Box so it adjusts and aligns */
 .search-container {
- /* TODO */
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: hsl(0, 0%, 100%);
 }
 .search-container input,
 .search-container .suggestions {
-  /* TODO */
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
 }
+
 .search-container input {
- /* TODO */
+  margin-top: 300px;
 }
+
 .search-container .suggestions {
-   /* TODO */
+  background-color: #11ffee00;
+  cursor: pointer;
 }
 
 ul {
-  /* TODO */
-}
-ul.has-suggestions {
-  /* TODO */
-}
-ul li {
-  /* TODO */
-}
-ul li:hover {
-  /* TODO */
+  padding-left: 0;
 }
 
-input {
-   /* TODO */
+ul.has-suggestions {
+  margin: 0px;
+  border: solid;
+  border-color: hsl(0, 0%, 100%);
+  border-radius: 2px;
+  border-top: 1px solid;
+}
+ul li {
+  list-style-type: none;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+ul li:hover {
+  color:black;
+  cursor: none;
+}
+
+.cursor {
+  display: none;
 }
