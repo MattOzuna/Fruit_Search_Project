@@ -24,8 +24,10 @@ How would you structure your functions?
 -I'll need a function which generates options in the dropdown menu as the user types.
 This would be done by listening for a keyup event and then checking the value currently 
 in the searchbar against the fruits provided in the starter code.
+If I have an array for the fruits, maybe I can use a .filter() to get the values which match.
 
 -I'll need a function which will populate the searchbar with the clicked value from the dropdown.
+The click event.target.innerText can by used to set the searchbar
 
 
 
