@@ -46,6 +46,13 @@ function useSuggestion(e) {
 }
 
 function highlightSuggestion(e){
+	for (let suggestion of suggestions.childNodes){
+		if (suggestion === e.target){
+			e.target.classList.add('highlight')
+		}
+		else suggestion.classList.remove('highlight')
+	}
+	
 }
 
 input.addEventListener('keyup', searchHandler);
