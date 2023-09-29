@@ -17,7 +17,7 @@ function search(str) {
 
 function searchHandler(e) {
 	let results = search(input.value);
-	//the next line clears out previous suggestions
+	//the next 2 lines clear out previous suggestions
 	suggestions.innerHTML = '';
 	suggestions.classList.remove('has-suggestions');
 	showSuggestions(results, input.value); 
