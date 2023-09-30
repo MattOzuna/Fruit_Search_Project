@@ -15,7 +15,7 @@ body {
 input {
   background-color: hsla(0, 0%, 100%, 0);
   /* I just wanted a transparent input background. */
-  border-radius: 2px;
+  border-radius: 5px;
   border-color: hsla(0, 0%, 100%, 10);
   color: hsl(0, 0%, 100%);
   height: 50px;
@@ -60,7 +60,7 @@ ul.has-suggestions {
   margin: 0px;
   border: solid;
   border-color: hsl(0, 0%, 100%);
-  border-radius: 2px;
+  border-radius: 5px;
   border-top: 1px solid;
 }
 ul li {
