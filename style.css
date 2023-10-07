@@ -41,7 +41,7 @@ input::placeholder {
 .search-container .suggestions {
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
+  width: 400px;
 }
 
 .search-container input {
@@ -78,15 +78,15 @@ ul li:hover {
   background-color: hsla(0, 0%, 100%, 50%) ;
 }
 
-@media (min-width: 750px){
+@media (max-width: 750px){
   .search-container input,
   .search-container .suggestions  {
-    width: 400px;
+    width: 65%;
     font-size: 1.5rem;
   }
 }
 
-@media (min-width: 600px){
+@media (max-width: 600px){
   .search-container input,
   .search-container .suggestions  {
     width: 75%;
