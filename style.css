@@ -32,7 +32,8 @@ input::placeholder {
 .search-container {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  justify-content: center;
+  /* height: 100%; */
   color: hsl(0, 0%, 100%);
 }
 
@@ -40,7 +41,7 @@ input::placeholder {
 .search-container .suggestions {
   margin-left: auto;
   margin-right: auto;
-  width: 400px;
+  width: 75%;
 }
 
 .search-container input {
@@ -80,7 +81,7 @@ ul li:hover {
 @media (max-width: 750px){
   .search-container input,
   .search-container .suggestions  {
-    width: 65%;
+    width: 400px;
     font-size: 1.5rem;
   }
 }
